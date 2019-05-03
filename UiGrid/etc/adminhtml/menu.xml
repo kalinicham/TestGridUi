@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Test_UiGrid::test" title="Test" translate="title" module="Test_UiGrid" sortOrder="20" dependsOnModule="Test_UiGrid" resource="Test_UiGrid::test"/>
+        <add id="Test_UiGrid::test_uigrid" title="UiGrid" translate="title" module="Test_UiGrid" sortOrder="10" parent="Test_UiGrid::test" action="uigrid" resource="Test_UiGrid::test"/>
+    </menu>
+</config>
